@@ -1,0 +1,18 @@
+name: "experimentsandbox"
+navbar:
+  title: "experimentsandbox"
+  left:
+    - text: "home"
+      href: index.html
+    - text: "module1"
+      href: module1.html
+    - text: "module2"
+      href: module2.html
+    - text: "labs"
+      href: labs.html
+    
+      
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
