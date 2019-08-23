@@ -1,0 +1,20 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+
+## Schedule  
+<br>
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+schedule <- read_csv("schedule.csv")
+knitr::kable(schedule)
+
+```

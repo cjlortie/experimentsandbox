@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "home"
       href: index.html
+    - text: "schedule"
+      href: schedule.html
     - text: "module1"
       href: module1.html
     - text: "module2"
