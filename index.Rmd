@@ -12,12 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](./rey.jpeg)  
 
-Please tweet all discoveries because to **@cjlortie #exptsandbox** to make our designing transparent to the scientific community.    
+Please tweet all discoveries because to **@cjlortie #exptsandbox #sciencejedi** to make our designing transparent to the scientific community.    
 
 ### Outline      
 This course examines advanced concepts associated with the design and implementation of experiments in environmental and evolutionary biology. Both basic and applied designs are described and major contemporary developments summarized.  
 
 [Course outline pdf](https://github.com/cjlortie/experimentsandbox/blob/master/BIOL3250-2019.pdf)  
+
+[Alternative link for downloading here.](https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207)
 
 **Module 1**  
 The first 6 weeks of lectures (module 1) are traditional professor-lead instruction presenting and discussing the assigned textbook.  This component of the lectures provided you with the critical elements, ideas, tools, and terminology you need to design experiments.  
