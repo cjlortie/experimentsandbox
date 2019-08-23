@@ -10,4 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Experimental Design  
 
-![](./rey.jpeg)
+![](./rey.jpeg)  
+
+Please tweet all discoveries because to **@cjlortie #exptsandbox** to make our designing transparent to the scientific community.    
+
+**Outline**    
+[Course outline pdf](https://github.com/cjlortie/bio4enviro/blob/master/BIOL3250-2019.pdf)  
