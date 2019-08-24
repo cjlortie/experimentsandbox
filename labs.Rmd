@@ -8,4 +8,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
 
-## Labs
+## Labs  
+Every single day is an experiment - manage and be mindful of the process. #sciencejedi  
+
+### Reading  
+[Lab manual](https://figshare.com/articles/An_experimental_design_cookbook/9728204)  
+
+### Lab report
+Marking key to be provided by teaching assistant.  
+
+
