@@ -8,4 +8,16 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
 
-## Module 2
+## Module 2  
+
+### Readings  
+
+[Ten simple rules for writing a career development award proposal](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005863)  
+
+[Ten Simple Rules for Getting Grants](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)  
+
+[Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)   
+
+### Grant proposal  
+
+### Presentation  
