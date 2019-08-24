@@ -19,5 +19,38 @@ knitr::opts_chunk$set(echo = TRUE)
 [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)   
 
 ### Grant proposal  
+**Marking key**  
+Page 1.  
+Title clear?  
+Summary compelling and simple and plain language (< 1800 words)?  
+
+Page 2.  
+The research proposal - ONE page only - just like Canadian Government rules.  
+
+Page 3.  
+Literature cited (at least 5 studies published within last 5 years cited)  
+
+**Elements /10%**  
+Background info & Objectives  
+Hypothesis  
+Outline of experimental design approach-theoretical  
+Methods  
+Significance  
+
+**Overview /10%**  
+Have you presented a compelling case?  
+Have you made your hypothesis explicit?  
+Does your project seem feasible? Is it overly ambitious?   
+Does it have other weaknesses?   
+Have you stated the means that grantors can use to evaluate the success of your project after you have executed it? This means – have you stated the significance and/or outcome?  
+
+**Background info**  
+[Canada Graduate Scholarships-Master’s Program](http://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp)  
+
+[Actual instructions here if you choose to apply by Dec](http://www.nserc-crsng.gc.ca/ResearchPortal-PortailDeRecherche/Instructions-Instructions/CGS_M-BESC_M_eng.asp)
+
+  
+
+
 
 ### Presentation  
