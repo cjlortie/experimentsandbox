@@ -15,6 +15,14 @@ Every single day is an experiment - manage and be mindful of the process. #scien
 [Lab manual](https://figshare.com/articles/An_experimental_design_cookbook/9728204)  
 
 ### Lab report
-Marking key to be provided by teaching assistant.  
+**Marking key**  
 
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+schedule <- read_csv("BIOL3250_labs.csv")
+knitr::kable(schedule)
+```
+
+Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com)
 
