@@ -44,5 +44,9 @@ All work must be submitted to [turnitin.com](https://www.turnitin.com) as PDF.
 Class ID: 22040521  
 Key: experiment  
 
+[Five-Minute Dungeon Data](https://figshare.com/articles/Five_Minute_Dungeon_Timer_Data/9767732)  
+
+[Five-Minute Dungeon Experiment](https://cjlortie.github.io/Five_Minute_Dungeon/)
+
 
 
