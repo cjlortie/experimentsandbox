@@ -24,5 +24,17 @@ schedule <- read_csv("BIOL3250_labs.csv")
 knitr::kable(schedule)
 ```
 
-Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com)
+Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com)  
+
+**Instructions**  
+Page 1. Title, name, and abstract.  
+Page 2-3. Introduction.  
+Page 4. Methods.  
+Page 5. Results (not including figure).    
+Page 6. Discussion.  
+Page 7. Lit cited.  
+Page 8. Figure on this page.  
+
+Single spaced, 12 point font, at least 1 inch margins (the default).  
+PDF format only.  
 
