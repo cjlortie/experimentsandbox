@@ -18,3 +18,5 @@ schedule <- read_csv("schedule.csv")
 knitr::kable(schedule)
 
 ```
+
+Decks for download as pdf from [speakerdeck](https://speakerdeck.com/cjlortie)
