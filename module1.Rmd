@@ -38,7 +38,7 @@ We read [Experimental Design for the Life Sciences, Fourth Edition](https://glob
 
 **Synthesis of best experimental design principles**  
 
-1. You have some lovely fruit trees in your orchard, and it is important to you to protect your crop from pests.  Unlike some other growers, you prefer to not trap out the small mammals (squirrels & rodents) but need to keep the ripening fruit on the tree branches till harvest.  The animals can eat the fruit that falls to the ground.  You have read that metal flashing wrapped around the trunk prevents animals from climbing up.  You have $10,000 you were going to spend on advertising but want to spend on doing an experiment this year with flashing so that you can be organic and animal friendly when you advertise next year.  You have three major fruit orchards on your farm, each separated by a 1km, and you have noticed animal activity in all three locations.  The growing season is 6 months long, beginning in May and ending in October, and at each location you have approximately 300 trees.  The metal flashing is sold in rolls 10 ft wide and 100 feet long.  Each roll costs $1000.  You have 3 staff, part-time to help you set up experiment. All three locations have fruit trees that are even aged and approximately the same size at 25 feet tall with a trunk diameter at breast height of on average of 3 ft.  Please design experiment to determine if metal flashing wrapped around the trunk will work.  Also, determine whether the height of placement and width of flashing needed are important considerations.  Write a hypothesis, predictions, and the methods with a sketch to show outline of experiment as you are planning on sharing the find in in a local fruit grower publication for others within the region.  
+1. You have some lovely fruit trees in your orchard, and it is important to you to protect your crop from pests.  Unlike some other growers, you prefer to not trap out the small mammals (squirrels & rodents) but need to keep the ripening fruit on the tree branches till harvest.  The animals can eat the fruit that falls to the ground.  You have read that metal flashing wrapped around the trunk prevents animals from climbing up.  You have 10,000 (CDN) you were going to spend on advertising but want to spend on doing an experiment this year with flashing so that you can be organic and animal friendly when you advertise next year.  You have three major fruit orchards on your farm, each separated by a 1km, and you have noticed animal activity in all three locations.  The growing season is 6 months long, beginning in May and ending in October, and at each location you have approximately 300 trees.  The metal flashing is sold in rolls 10 ft wide and 100 feet long.  Each roll costs 1000 (CDN).  You have 3 staff, part-time to help you set up experiment. All three locations have fruit trees that are even aged and approximately the same size at 25 feet tall with a trunk diameter at breast height of on average of 3 ft.  Please design experiment to determine if metal flashing wrapped around the trunk will work.  Also, determine whether the height of placement and width of flashing needed are important considerations.  Write a hypothesis, predictions, and the methods with a sketch to show outline of experiment as you are planning on sharing the find in in a local fruit grower publication for others within the region.  
 
 2. You are managing a running race.  Design a ‘validation’ experiment to demonstrate that the system you have developed minimizes bias and inaccuracies.  You have a limited budget for equipment but many volunteers. In your design, also include best design principles for the volunteers too.  Develop a checklist you provide to them. Explain the design but also do a very clear schematic to show the validation design to the race officials to get your race Ontario Track and Field Certified.  You do not need a hypothesis and prediction for a validation protocol, but you do need the protocol to very clear and decouple bias from inaccuracy.  Ensure you also have redundancy and a checking system in place for races in case one system fails because these competitions are very important qualifying races for potentially professional athletes.  
 
@@ -51,6 +51,28 @@ List your hypothesis, predictions, and include a description of your pilot exper
 <br>
 
 5. VW likely failed to communicate clearly to the public about TDI cars.  Someone within the company programmed a cheat code that allows the car to pass aircare tests.  However, when driving, it produces 4-40x above acceptable emissions.  Design an experiment to determine the frequency that this cheat was applied to their TDI models (3 different models with TDI engines) for cars currently on the road, test if they are set to cheat including the amount they pollute, and the extent that the cheat activates in testing within each model (i.e. is their sensitivity in the cheat turning on).  To be clear, the cheat activates when the cars are put on rollers and only two wheels roll.  Develop a hypothesis, predictions, and a very clear design.  Include a visual sketch of the experimental design in addition to your description.  Anticipate the outcome of your testing by providing a set of data visualization figures from the experiment.  VW will likely challenge your findings no matter what you report so ensure you have a robust design you can defend by invoking the ‘best experimental design’ principles from your training.  
+
+### Instructions for test  
+1. This is a take-home test, but you are welcome to attend class, and I will do my best to facilitate (but not provide answers). Work on it wherever you are most comfortable and discuss as needed but please do the writing independently because of the plagarism check tool associated with turnitin.   
+2. You must submit the test as a **PDF** to [turnitin.com](http://www.turnitin.com) by midnight the following day after class.  
+3. The test is worth 40%, and the grading will be one point per percent.  
+4. Font must be sized at least 11 point, 1 inch margins, and writing must also adhere to the following guidelines.  Memory: NO more than 2 pages total, Concepts: no more than two pages (1 page for each question), Synthesis: no more than 2 pages for the single question. Summary - two pages for each section no exceptions.  
+5. Memory worth 10%, concepts worth 10%, and synthesis worth 20%. 
+6. From memory select ONLY 5 questions from 1,2,3,5,6,8; from concepts select ONLY 2 questions from 1,4,5; and synthesis select only 1 question from 1 or 3.  
+
+
+Detailed marking table I will use.  
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+schedule <- read_csv("test.csv")
+knitr::kable(schedule)
+
+```
+
+
+
+
 
 
 
