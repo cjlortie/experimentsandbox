@@ -61,9 +61,14 @@ List your hypothesis, predictions, and include a description of your pilot exper
 6. From memory select ONLY 5 questions from 1,2,3,5,6,8; from concepts select ONLY 2 questions from 1,4,5; and synthesis select only 1 question from 1 or 3.  
 7. A sketch is required for either synthesis question you choose but do not count towards page limit.  You can draw by hand and scan or use powerpoint or keynote to make your visual. It can be included as a third and separate page if it makes it easier to see it.  
 8. The purpose of the sketch is to leverage all the hard work you did in labs - so sketches should be a mechanism to enhance your explanation, and the marking key includes that recognition.  
+9. No citations needed - I trust ya.  
+10. I strongly prefer double-spaced, but if you need to write more and must adhere to the page limits, feel free to switch to 1.5 or single-spaced as needed.  
+11. Please ensure the PDF is entitled 'Surname_test.PDF' and that your name and student ID is at the top of the first page of test.  
+
+Happy designing!!  
 
 
-Detailed marking table I will use.  
+**Detailed marking table I will use.**    
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
 library(tidyverse)
 library(knitr)
