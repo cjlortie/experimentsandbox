@@ -72,8 +72,8 @@ Happy designing!!
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
 library(tidyverse)
 library(knitr)
-schedule <- read_csv("test.csv")
-knitr::kable(schedule)
+test <- read_csv("test.csv")
+knitr::kable(test)
 
 ```
 
