@@ -20,7 +20,7 @@ The sandbox is a perfect metaphor because there is no perfect experiment - but w
 This course examines advanced concepts associated with the design and implementation of experiments in environmental and evolutionary biology. Both basic and applied designs are described and major contemporary developments summarized.  
 <br>  
 
-[Link for downloading here.](https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207)  
+[Link for downloading here.](https://figshare.com/articles/online_resource/BIOL3250_Experimental_Design_Course_Outline/12622490)  
 <br>  
 
 ### Lectures
