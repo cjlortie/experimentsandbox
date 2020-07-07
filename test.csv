@@ -1,11 +1,4 @@
-student_random_ID,section,question,value,comments
-a,concepts,1,5,looking for 4 clear points to each question and 1 mark for clarity
-a,concepts,2,0,will mark only 2 questions from this list for section
-a,concepts,3,5,will mark only 2 questions from this list for section
-a,concepts,4,0,will mark only 2 questions from this list for section
-a,concepts,5,0,will mark only 2 questions from this list for section
-a,synthesis,1,20,"5 for design including reps, factors, levels, 5 for viable experiment, 5 for a visual, 5 for explanation of outcome of experiment"
-a,synthesis,2,0,will mark only 1 question of these questions
-a,synthesis,3,0,will mark only 1 question of these questions
-a,synthesis,4,0,will mark only 1 question of these questions
-a,synthesis,5,0,will mark only 1 question of these questions
+section,question,value,comments
+concepts,1,5,looking for 4 clear points to each question and 1 mark for clarity
+concepts,2,5,looking for 4 clear points to each question and 1 mark for clarity
+synthesis,1,20,"5 for design including reps, factors, levels, 5 for viable experiment, 5 for a visual, 5 for explanation of outcome of experiment"

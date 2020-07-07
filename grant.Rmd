@@ -14,25 +14,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Actual instructions here if you choose to apply by Dec](http://www.nserc-crsng.gc.ca/ResearchPortal-PortailDeRecherche/Instructions-Instructions/CGS_M-BESC_M_eng.asp)  
 
-### Marking key    
-**Page 1. Title and Summary  5%**    
-Grading  
-Clear title   
-Summary compelling, simple, & plain language (< 1800 words)  
-
-
-**Page 2. Research proposal 10%**     
-Grading  
-The research proposal - ONE page only - just like Canadian Government rules. 
-Background info & Objectives  
-Hypothesis  
-Outline of experimental design approach-theoretical  
-Methods  
-Significance 
-
-**Page 3.  Literature cited  5%**    
-Grading  
-At least 5 studies published within last 5 years cited.  
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+grant <- read_csv("BIOL3250_grant.csv")
+knitr::kable(grant)
+``` 
 
 ### Resources    
 [Ten simple rules for writing a career development award proposal](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005863)  
