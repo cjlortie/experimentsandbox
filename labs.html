@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -290,10 +278,10 @@ $(document).ready(function () {
   <a href="schedule.html">schedule</a>
 </li>
 <li>
-  <a href="module1.html">module1</a>
+  <a href="test.html">test</a>
 </li>
 <li>
-  <a href="module2.html">module2</a>
+  <a href="grant.html">grant</a>
 </li>
 <li>
   <a href="labs.html">labs</a>
@@ -318,12 +306,29 @@ $(document).ready(function () {
 <div id="labs" class="section level2">
 <h2>Labs</h2>
 <p>Every single day is an experiment - manage and be mindful of the process. #sciencejedi</p>
-<div id="reading" class="section level3">
-<h3>Reading</h3>
 <p><a href="https://figshare.com/articles/An_experimental_design_cookbook/9728204">Lab manual</a></p>
+<div id="dataset-and-meta-data-for-pilot-experiment-5" class="section level3">
+<h3>Dataset and meta-data for pilot experiment 5%</h3>
 </div>
-<div id="lab-report" class="section level3">
-<h3>Lab report</h3>
+<div id="data-and-meta-data-for-field-experiment-5" class="section level3">
+<h3>Data and meta-data for field experiment 5%</h3>
+</div>
+<div id="field-lab-report-30" class="section level3">
+<h3>Field lab report 30%</h3>
+<p><a href="https://www.facetsjournal.com/about/">FACETS</a> is Canada’s first and only multidisciplinary open access science journal. Follow the <a href="https://www.facetsjournal.com/authors/instructions/">instructions</a> proposed for a <strong>research article</strong> for this journal - 5000 words preferred.</p>
+<p><strong>Structure of PDF research article</strong><br />
+Page 1. Title, name, and abstract.<br />
+Page 2-3. Introduction.<br />
+Page 4. Methods.<br />
+Page 5. Results (not including figure, put at end of PDF).<br />
+Page 6. Discussion.<br />
+Page 7. Literature cited.<br />
+Page 8. Figure legend on this page.<br />
+Page 9. Figure on this page.<br />
+Page 10. Acknowledgments.</p>
+<p>Single spaced, 12 point font, at least 1 inch margins (the default).<br />
+PDF format only.<br />
+Lab reports must also be submitted to <a href="https://www.turnitin.com">turnitin.com</a>.</p>
 <p><strong>Marking key</strong></p>
 <table>
 <thead>
@@ -339,63 +344,60 @@ $(document).ready(function () {
 <td align="right">1</td>
 <td align="left">Title &amp; abstract</td>
 <td align="left">effective summary</td>
-<td align="right">2</td>
+<td align="right">5</td>
 </tr>
 <tr class="even">
 <td align="right">2</td>
 <td align="left">Introduction</td>
 <td align="left">Sets the context, explains why study needs to be done</td>
-<td align="right">4</td>
+<td align="right">5</td>
 </tr>
 <tr class="odd">
 <td align="right">3</td>
 <td align="left">Methods</td>
 <td align="left">Decribed well enough for someone else to replicate design</td>
-<td align="right">2</td>
+<td align="right">5</td>
 </tr>
 <tr class="even">
 <td align="right">4</td>
 <td align="left">Results</td>
 <td align="left">Clear figure and text should be able to stand alone including description of statistics</td>
-<td align="right">4</td>
+<td align="right">5</td>
 </tr>
 <tr class="odd">
 <td align="right">5</td>
 <td align="left">Discussion</td>
 <td align="left">Restate findings in brief and then propose significance of the work</td>
-<td align="right">4</td>
+<td align="right">5</td>
 </tr>
 <tr class="even">
 <td align="right">6</td>
 <td align="left">Literature cited</td>
 <td align="left">At least 5 recent papers on topic and 2 on design decisions</td>
-<td align="right">3</td>
+<td align="right">5</td>
 </tr>
 <tr class="odd">
 <td align="right">9</td>
 <td align="left">Clarity</td>
 <td align="left">Is the report convincing or compelling</td>
-<td align="right">1</td>
+<td align="right">0</td>
 </tr>
 <tr class="even">
 <td align="right">10</td>
 <td align="left">Total</td>
 <td align="left">Just add up the above at 1 point per percent value</td>
-<td align="right">20</td>
+<td align="right">30</td>
 </tr>
 </tbody>
 </table>
-<p>Lab reports must also be submitted to <a href="https://www.turnitin.com">turnitin.com</a></p>
-<p><strong>Instructions</strong><br />
-Page 1. Title, name, and abstract.<br />
-Page 2-3. Introduction.<br />
-Page 4. Methods.<br />
-Page 5. Results (not including figure).<br />
-Page 6. Discussion.<br />
-Page 7. Lit cited.<br />
-Page 8. Figure on this page.</p>
-<p>Single spaced, 12 point font, at least 1 inch margins (the default).<br />
-PDF format only.</p>
+</div>
+<div id="data-design-lab-report-10" class="section level3">
+<h3>Data-design lab report 10%</h3>
+<p><a href="https://www.facetsjournal.com/about/">FACETS</a> is Canada’s first and only multidisciplinary open access science journal. Follow the <a href="https://www.facetsjournal.com/authors/instructions/">instructions</a> proposed for a <strong>note</strong> for this journal - 1400 words preferred.</p>
+<p><strong>Structure of note</strong><br />
+Page 1. One paragraph Introduction.<br />
+Page 2. One paragraph description of results.<br />
+Page 3. Conclusions and implications of what you found.</p>
 </div>
 </div>
 
@@ -416,6 +418,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

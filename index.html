@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -290,10 +278,10 @@ $(document).ready(function () {
   <a href="schedule.html">schedule</a>
 </li>
 <li>
-  <a href="module1.html">module1</a>
+  <a href="test.html">test</a>
 </li>
 <li>
-  <a href="module2.html">module2</a>
+  <a href="grant.html">grant</a>
 </li>
 <li>
   <a href="labs.html">labs</a>
@@ -318,30 +306,37 @@ $(document).ready(function () {
 <div id="experimental-design" class="section level2">
 <h2>Experimental Design</h2>
 <p><img src="rey.jpeg" /></p>
-<p>Please tweet all discoveries because to <strong><span class="citation">@cjlortie</span> #exptsandbox #sciencejedi</strong> to make our designing transparent to the scientific community.</p>
+<p>Welcome to <strong>#exptsandbox #sciencejedi</strong> training.<br />
+The sandbox is a perfect metaphor because there is no perfect experiment - but we can do better experiments!</p>
 <div id="outline" class="section level3">
 <h3>Outline</h3>
 <p>This course examines advanced concepts associated with the design and implementation of experiments in environmental and evolutionary biology. Both basic and applied designs are described and major contemporary developments summarized.</p>
-<p><a href="https://github.com/cjlortie/experimentsandbox/blob/master/BIOL3250-2019.pdf">Course outline pdf</a></p>
-<p><a href="https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207">Alternative link for downloading here.</a></p>
-<p><strong>Module 1</strong><br />
-The first 6 weeks of lectures (module 1) are traditional professor-lead instruction presenting and discussing the assigned textbook. This component of the lectures provided you with the critical elements, ideas, tools, and terminology you need to design experiments.</p>
-<p><strong>Module 2</strong><br />
-The next 6 weeks of lecture focus on pragmatic primary research that both the instructor and students identify associated with their individual research interests. The primary purpose of this component of the lectures is to provide you with the opportunity to generate a novel, useful research proposal on the topic of your choice appropriate for graduate-level future research.</p>
-<p><strong>Labs</strong><br />
-Learn by doing. The first component of the labs is student-lead group research experiment on an environmental/ecological/evolutionary experiment designed by the students. Once designed, a total of 3 weeks is provided to collect data.</p>
+<p><a href="https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207">Link for downloading here.</a></p>
+</div>
+<div id="lectures" class="section level3">
+<h3>Lectures</h3>
+<p>Read. Think. Create.</p>
+<p>The first 6 weeks, we read a book together. This component of the lectures provides you with the critical elements, ideas, tools, and terminology you need to design better experiments. The extent that you advance your knowledge and design skills are evaluated using a test, provided right now, that you complete on your own time.</p>
+<p>The next 6 weeks, you design an experiment for graduate-level research and prepare an NSERC grant proposal (very short, see guidelines). The primary purpose of this component of the lectures is to provide you with the opportunity to generate a novel, useful research proposal on the topic of your choice. Key readings and discussion are provided to support your development and exploration of a topic.</p>
+</div>
+<div id="labs" class="section level3">
+<h3>Labs</h3>
+<p>Learn by doing.</p>
+<p>There are two components to the labs. The first component is a field experiment. You are provided with three options. Try each briefly, then decide on the one that you want to pursue in depth and write up.</p>
 <p>The second component of the labs focuses on deep research on a topic of choice. This work supports the grant proposal and also the presentations.</p>
 <p><strong>Evaluation</strong><br />
-Final course grades may be adjusted to conform to Program or Faculty grades distribution profiles.<br />
-Test. 40%<br />
-Lab report. 20%</p>
-<p>Grant proposal. 20%<br />
-PechaKucha presentation. 20%</p>
+Final course grades may be adjusted to conform to Program or Faculty grades distribution profiles.</p>
+<p>LECTURE COMPONENTS<br />
+Test 30%<br />
+Grant proposal 20%</p>
+<p>LAB COMPONENTS<br />
+Dataset with meta-data for pilot experiment 5%<br />
+Dataset with meta-data for field experiment 5%<br />
+Field lab report 30%<br />
+Data-design lab report 10%</p>
 <p>All work must be submitted to <a href="https://www.turnitin.com">turnitin.com</a> as PDF.<br />
-Class ID: 22040521<br />
+Class ID: 25429289<br />
 Key: experiment</p>
-<p><a href="https://figshare.com/articles/Five_Minute_Dungeon_Timer_Data/9767732">Five-Minute Dungeon Data</a></p>
-<p><a href="https://cjlortie.github.io/Five_Minute_Dungeon/">Five-Minute Dungeon Experiment</a></p>
 </div>
 </div>
 
@@ -362,6 +357,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

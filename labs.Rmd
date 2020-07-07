@@ -11,30 +11,48 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Labs  
 Every single day is an experiment - manage and be mindful of the process. #sciencejedi  
 
-### Reading  
 [Lab manual](https://figshare.com/articles/An_experimental_design_cookbook/9728204)  
 
-### Lab report
-**Marking key**  
+### Dataset and meta-data for pilot experiment 5%  
 
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-schedule <- read_csv("BIOL3250_labs.csv")
-knitr::kable(schedule)
-```
+### Data and meta-data for field experiment 5%  
 
-Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com)  
+### Field lab report 30%  
+[FACETS](https://www.facetsjournal.com/about/) is Canada’s first and only multidisciplinary open access science journal.  Follow the [instructions](https://www.facetsjournal.com/authors/instructions/) proposed for a **research article** for this journal - 5000 words preferred.  
 
-**Instructions**  
+**Structure of PDF research article**     
 Page 1. Title, name, and abstract.  
 Page 2-3. Introduction.  
 Page 4. Methods.  
-Page 5. Results (not including figure).    
+Page 5. Results (not including figure, put at end of PDF).    
 Page 6. Discussion.  
-Page 7. Lit cited.  
-Page 8. Figure on this page.  
+Page 7. Literature cited.  
+Page 8. Figure legend on this page.  
+Page 9. Figure on this page.  
+Page 10. Acknowledgments.  
 
 Single spaced, 12 point font, at least 1 inch margins (the default).  
 PDF format only.  
+Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com).   
+
+**Marking key**  
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+schedule <- read_csv("BIOL3250_field_labs.csv")
+knitr::kable(schedule)
+```
+
+### Data-design lab report 10%  
+[FACETS](https://www.facetsjournal.com/about/) is Canada’s first and only multidisciplinary open access science journal.  Follow the [instructions](https://www.facetsjournal.com/authors/instructions/) proposed for a **note** for this journal - 1400 words preferred.  
+
+**Structure of note**  
+Page 1. One paragraph Introduction.  
+Page 2. One paragraph description of results.  
+Page 3. Conclusions and implications of what you found.  
+
+
+
+ 
+
 

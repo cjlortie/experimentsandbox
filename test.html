@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>test.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">experimentsandbox</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">home</a>
+</li>
+<li>
+  <a href="schedule.html">schedule</a>
+</li>
+<li>
+  <a href="test.html">test</a>
+</li>
+<li>
+  <a href="grant.html">grant</a>
+</li>
+<li>
+  <a href="labs.html">labs</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br></p>
+<div id="test" class="section level2">
+<h2>Test</h2>
+<div id="instructions" class="section level3">
+<h3>Instructions</h3>
+<ol style="list-style-type: decimal">
+<li><p>This is a take-home test. Work on it whenever and wherever you are most comfortable and discuss as needed but please do the writing independently because of the plagiarism check tool associated with turnitin.</p></li>
+<li><p>You must submit the test as a <strong>PDF</strong> to <a href="http://www.turnitin.com">turnitin.com</a>.<br />
+</p></li>
+<li><p>Font must be sized at least 11 point, 1 inch margins, and writing must also adhere to the following guidelines. Concepts: no more than two pages (1 page for each question), Synthesis: no more than 2 pages for the single question.</p></li>
+<li><p>A sketch is required for the synthesis question but it does not count towards page limit. You can draw by hand and scan or use powerpoint or keynote to make your visual. It can be included as a third and separate page.</p></li>
+<li><p>Please ensure the PDF is entitled <strong>‘Surname_test.PDF’</strong> and that your name and student ID is at the top of the first page of test.</p></li>
+</ol>
+<p>Happy designing!!</p>
+</div>
+<div id="concepts-select-two-qs-5-each" class="section level3">
+<h3>Concepts (select two Qs, 5% each)</h3>
+<ol style="list-style-type: decimal">
+<li>How do decide between two versus many levels for a given factor in designing an experiment? Use figures to show how you decide and provide a brief explanation in text form too. Make a general recommendation on the most likely design to best capture variation across many levels whilst still estimating variation/protecting against drop-outs too.<br />
+</li>
+<li>What is a hypothesis, provide a real world example, and explain the difference between a hypothesis and prediction.<br />
+</li>
+<li>It is sometimes useful to unbalance replicates across groups or levels for ethical or practical reasons. Provide a set of guidelines including a checklist of considerations for researchers. Clearly explain and show when you want to unbalance in favour of controls versus treatments and the converse (so that both textbook and Lortie are correct).<br />
+</li>
+<li>You have been hired to design an experiment. Your employer is keen to do it well, but research costs money. They want to do the best possible experiment but balance that against the cost of paying subjects in the experiment to test their new machine. What are some general tools that you can use to decide on how the extent that you recommended to them to replicate? This is a very real problem as sometimes employers/grants want to spend less on replication and you have to justify why you selected the number you did. Explain the concepts and tools clearly to your employer. Remember, they do not have infinite funds either so you have give them the evidence needed to justify whatever they can afford.<br />
+</li>
+<li>It is easy for scientists to fall into the trap of randomizing everything and assuming this solves all problems. Explain randomization from an experimental design perspective and how you would use it to design the sampling of an experiment with heterogeneity between groups of subjects and in applying the treatments.</li>
+</ol>
+</div>
+<div id="synthesis-select-a-single-q-20" class="section level3">
+<h3>Synthesis (select a single Q, 20%)</h3>
+<ol style="list-style-type: decimal">
+<li><p>You have some lovely fruit trees in your orchard, and it is important to you to protect your crop from pests. Unlike some other growers, you prefer to not trap out the small mammals (squirrels &amp; rodents) but need to keep the ripening fruit on the tree branches till harvest. The animals can eat the fruit that falls to the ground. You have read that metal flashing wrapped around the trunk prevents animals from climbing up. You have 10,000 (CDN) you were going to spend on advertising but want to spend on doing an experiment this year with flashing so that you can be organic and animal friendly when you advertise next year. You have three major fruit orchards on your farm, each separated by a 1km, and you have noticed animal activity in all three locations. The growing season is 6 months long, beginning in May and ending in October, and at each location you have approximately 300 trees. The metal flashing is sold in rolls 10 ft wide and 100 feet long. Each roll costs 1000 (CDN). You have 3 staff, part-time to help you set up experiment. All three locations have fruit trees that are even aged and approximately the same size at 25 feet tall with a trunk diameter at breast height of on average of 3 ft. Please design experiment to determine if metal flashing wrapped around the trunk will work. Also, determine whether the height of placement and width of flashing needed are important considerations. Write a hypothesis, predictions, and the methods with a sketch to show outline of experiment as you are planning on sharing the find in in a local fruit grower publication for others within the region.</p></li>
+<li><p>You are managing a running race. Design a ‘validation’ experiment to demonstrate that the system you have developed minimizes bias and inaccuracies. You have a limited budget for equipment but many volunteers. In your design, also include best design principles for the volunteers too. Develop a checklist you provide to them. Explain the design but also do a very clear schematic to show the validation design to the race officials to get your race Ontario Track and Field Certified. You do not need a hypothesis and prediction for a validation protocol, but you do need the protocol to very clear and decouple bias from inaccuracy. Ensure you also have redundancy and a checking system in place for races in case one system fails because these competitions are very important qualifying races for potentially professional athletes.</p></li>
+<li><p>You have decided to do some research contract work after your undergraduate before you make your big career decision. You took an experimental design course and are now confident you can advertise yourself as an expert in design to help out companies. You are also really into the physical training literature and sports. You have secured your first contract with a really innovative gym called P3 that trains many pro-athletes including potential draft recruits for the NBA. As part of the research by the gym, they test really novel training techniques including use of hi-res recordings, electronic muscle stimulation (EMS), and also <a href="https://en.wikipedia.org/wiki/Transcranial_direct-current_stimulation">transcranial direct-current stimulation (tDCS)</a>. Both are basically forms of electrical stimulation of either the muscles or the brain directly and preliminary but accumulating research has shown both can have positive effects on performance. They have hired you to help them use this really expensive equipment they purchased to train athletes but also collect data in a meaningful way to publish and establish their company (gym but they are branding it as a research clinic). Show off what you know here from experimental design using the terms and ideas of avoiding psuedorep, within-subject measures, PPV, how to decide on replication levels, specificity in testing protocols, etc. Remember however, all althletes are paying clients but return many times for training within a single season. Assume they handle approximately 120 athletes pre-season before draft picks, each athlete can visit up to a dozen times over the course of 6 months, and your goal is to design an experiment that tests whether stimulation works. Ensure you test frequency, contrast direct muscle versus brain stim, and whether you need to both. They train only men 17-21 years but they can vary in height from 6ft upwards. Provide a visual outline of the design as well to show to pitch your design to P3.</p></li>
+<li><p>The <a href="https://sustainabledevelopment.un.org/sdgs">UN Sustainable Development Goals</a> are an inspiration. We need them. Design an experiment that can provide evidence of success after 5 years of hard work by a nation for just one of the 17 goals listed. Other researchers will test the remaining goals so ensure your design has some elements of repeatability and that they can compare their findings to yours. List your hypothesis, predictions, and include a description of your pilot experiment. Do this in writing. Clearly state how you are invoking best experimental design principles because your written full grant will be reviewed. You also have to present this to the UN for funding as part of the application process (they want to see if you can also communicate and summarize complexity well). You get only three slides and a few minutes to compete for the funding. Prep three visuals to show during your proposal. I recommend you do one figure showing the hypothesis and prediction clearly in a visual form, one figure showing the design, and one figure showing what you anticipate the outcome of the experiment will generate (i.e. a data visualization plot).</p></li>
+<li><p>VW likely failed to communicate clearly to the public about TDI cars. Someone within the <a href="https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal">company programmed a cheat code</a> that allows the car to pass aircare tests. However, when driving, it produces 4-40x above acceptable emissions. Design an experiment to determine the frequency that this cheat was applied to their TDI models (3 different models with TDI engines) for cars currently on the road, test if they are set to cheat including the amount they pollute, and the extent that the cheat activates in testing within each model (i.e. is their sensitivity in the cheat turning on). To be clear, the cheat activates when the cars are put on rollers and only two wheels roll. Develop a hypothesis, predictions, and a very clear design. Include a visual sketch of the experimental design in addition to your description. Anticipate the outcome of your testing by providing a set of data visualization figures from the experiment. VW will likely challenge your findings no matter what you report so ensure you have a robust design you can defend by invoking the ‘best experimental design’ principles from your training.</p></li>
+</ol>
+</div>
+<div id="sample-marking-key" class="section level3">
+<h3>Sample marking key</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">student_random_ID</th>
+<th align="left">section</th>
+<th align="right">question</th>
+<th align="right">value</th>
+<th align="left">comments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">a</td>
+<td align="left">concepts</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="left">looking for 4 clear points to each question and 1 mark for clarity</td>
+</tr>
+<tr class="even">
+<td align="left">a</td>
+<td align="left">concepts</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">will mark only 2 questions from this list for section</td>
+</tr>
+<tr class="odd">
+<td align="left">a</td>
+<td align="left">concepts</td>
+<td align="right">3</td>
+<td align="right">5</td>
+<td align="left">will mark only 2 questions from this list for section</td>
+</tr>
+<tr class="even">
+<td align="left">a</td>
+<td align="left">concepts</td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td align="left">will mark only 2 questions from this list for section</td>
+</tr>
+<tr class="odd">
+<td align="left">a</td>
+<td align="left">concepts</td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">will mark only 2 questions from this list for section</td>
+</tr>
+<tr class="even">
+<td align="left">a</td>
+<td align="left">synthesis</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="left">5 for design including reps, factors, levels, 5 for viable experiment, 5 for a visual, 5 for explanation of outcome of experiment</td>
+</tr>
+<tr class="odd">
+<td align="left">a</td>
+<td align="left">synthesis</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">will mark only 1 question of these questions</td>
+</tr>
+<tr class="even">
+<td align="left">a</td>
+<td align="left">synthesis</td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="left">will mark only 1 question of these questions</td>
+</tr>
+<tr class="odd">
+<td align="left">a</td>
+<td align="left">synthesis</td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td align="left">will mark only 1 question of these questions</td>
+</tr>
+<tr class="even">
+<td align="left">a</td>
+<td align="left">synthesis</td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">will mark only 1 question of these questions</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

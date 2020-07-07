@@ -6,10 +6,10 @@ navbar:
       href: index.html
     - text: "schedule"
       href: schedule.html
-    - text: "module1"
-      href: module1.html
-    - text: "module2"
-      href: module2.html
+    - text: "test"
+      href: test.html
+    - text: "grant"
+      href: grant.html
     - text: "labs"
       href: labs.html
     

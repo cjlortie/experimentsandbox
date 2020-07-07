@@ -1,1 +1,11 @@
-student_random_ID,section,question,value,commentsa,memory,1,2,looking for two solid points only for each answer herea,memory,2,2,looking for two solid points only for each answer herea,memory,3,2,looking for two solid points only for each answer herea,memory,5,2,looking for two solid points only for each answer herea,memory,6,2,looking for two solid points only for each answer herea,memory,8,,will mark only 5 questions from this lista,concepts,1,5,looking for 4 clear points to each question and 1 mark for claritya,concepts,4,5,looking for 4 clear points to each question and 1 mark for claritya,concepts,5,,will mark only 2 questions from this list for sectiona,synthesis,1,20,"5 for design including reps, factors, levels, 5 for viable experiment, 5 for a visual, 5 for explanation of outcome of experiment"a,synthesis,3,,will mark only 1 question of these 2 questions listed
+student_random_ID,section,question,value,comments
+a,concepts,1,5,looking for 4 clear points to each question and 1 mark for clarity
+a,concepts,2,0,will mark only 2 questions from this list for section
+a,concepts,3,5,will mark only 2 questions from this list for section
+a,concepts,4,0,will mark only 2 questions from this list for section
+a,concepts,5,0,will mark only 2 questions from this list for section
+a,synthesis,1,20,"5 for design including reps, factors, levels, 5 for viable experiment, 5 for a visual, 5 for explanation of outcome of experiment"
+a,synthesis,2,0,will mark only 1 question of these questions
+a,synthesis,3,0,will mark only 1 question of these questions
+a,synthesis,4,0,will mark only 1 question of these questions
+a,synthesis,5,0,will mark only 1 question of these questions

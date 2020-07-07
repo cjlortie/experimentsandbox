@@ -12,41 +12,47 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](./rey.jpeg)  
 
-Please tweet all discoveries because to **@cjlortie #exptsandbox #sciencejedi** to make our designing transparent to the scientific community.    
+Welcome to **#exptsandbox #sciencejedi** training.  
+The sandbox is a perfect metaphor because there is no perfect experiment - but we can do better experiments!    
 
 ### Outline      
 This course examines advanced concepts associated with the design and implementation of experiments in environmental and evolutionary biology. Both basic and applied designs are described and major contemporary developments summarized.  
 
-[Course outline pdf](https://github.com/cjlortie/experimentsandbox/blob/master/BIOL3250-2019.pdf)  
+[Link for downloading here.](https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207)  
 
-[Alternative link for downloading here.](https://figshare.com/articles/BIOL3250_Experimental_Design_Course_Outline/9728207)
+### Lectures
+Read. Think. Create.  
 
-**Module 1**  
-The first 6 weeks of lectures (module 1) are traditional professor-lead instruction presenting and discussing the assigned textbook.  This component of the lectures provided you with the critical elements, ideas, tools, and terminology you need to design experiments.  
+The first 6 weeks, we read a book together. This component of the lectures provides you with the critical elements, ideas, tools, and terminology you need to design better experiments.  The extent that you advance your knowledge and design skills are evaluated using a test, provided right now, that you complete on your own time.    
 
-**Module 2**  
-The next 6 weeks of lecture focus on pragmatic primary research that both the instructor and students identify associated with their individual research interests.  The primary purpose of this component of the lectures is to provide you with the opportunity to generate a novel, useful research proposal on the topic of your choice appropriate for graduate-level future research.  
+ 
+The next 6 weeks, you design an experiment for graduate-level research and prepare an NSERC grant proposal (very short, see guidelines). The primary purpose of this component of the lectures is to provide you with the opportunity to generate a novel, useful research proposal on the topic of your choice. Key readings and discussion are provided to support your development and exploration of a topic.   
 
-**Labs**    
-Learn by doing.  The first component of the labs is student-lead group research experiment on an environmental/ecological/evolutionary experiment designed by the students.  Once designed, a total of 3 weeks is provided to collect data.  
+### Labs 
+Learn by doing.  
+
+There are two components to the labs. The first component is a field experiment. You are provided with three options. Try each briefly, then decide on the one that you want to pursue in depth and write up.   
 
 The second component of the labs focuses on deep research on a topic of choice. This work supports the grant proposal and also the presentations.   
 
 **Evaluation**  
-Final course grades may be adjusted to conform to Program or Faculty grades distribution profiles.   
-Test. 40%  
-Lab report. 20%  
+Final course grades may be adjusted to conform to Program or Faculty grades distribution profiles.
 
-Grant proposal. 20%  
-PechaKucha presentation. 20%  
+LECTURE COMPONENTS  
+Test 30%  
+Grant proposal 20%  
+
+LAB COMPONENTS  
+Dataset with meta-data for pilot experiment 5%  
+Dataset with meta-data for field experiment 5%  
+Field lab report 30%  
+Data-design lab report 10%  
+
 
 All work must be submitted to [turnitin.com](https://www.turnitin.com) as PDF.  
-Class ID: 22040521  
+Class ID: 25429289  
 Key: experiment  
 
-[Five-Minute Dungeon Data](https://figshare.com/articles/Five_Minute_Dungeon_Timer_Data/9767732)  
-
-[Five-Minute Dungeon Experiment](https://cjlortie.github.io/Five_Minute_Dungeon/)
 
 
 
