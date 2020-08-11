@@ -14,57 +14,6 @@ Every single day is an experiment - manage and be mindful of the process. #scien
 [Lab manual](http://www.designcraft4experiments.club)  
 <br>  
 
-### Dataset and meta-data for pilot experiment 5%  
-Collected from one of the field three experiments: bird, bioblitz, or survey.  
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-data<- read_csv("BIOL3250_data.csv")
-knitr::kable(data)
-``` 
 
-<br>  
-
-### Data and meta-data for field experiment 5%  
-Collected for a single field experiment in depth.  
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-data<- read_csv("BIOL3250_data.csv")
-knitr::kable(data)
-``` 
-
-<br>  
-
-### Field lab report 30%  
-Single spaced, 12 point font, at least 1 inch margins (the default).  
-PDF format only.  
-Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com).  
-
-[FACETS](https://www.facetsjournal.com/about/) is Canada’s first and only multidisciplinary open access science journal.  Follow the [instructions](https://www.facetsjournal.com/authors/instructions/) proposed for a **research article** for this journal - 5000 words preferred.  
-
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-field <- read_csv("BIOL3250_field_labs.csv")
-knitr::kable(field)
-```
-<br>  
-
-### Data-design lab report 10%  
-Single spaced, 12 point font, at least 1 inch margins (the default).  
-PDF format only.  
-Lab reports must also be submitted to [turnitin.com](https://www.turnitin.com).  
-
-[FACETS](https://www.facetsjournal.com/about/) is Canada’s first and only multidisciplinary open access science journal.  Follow the [instructions](https://www.facetsjournal.com/authors/instructions/) proposed for a **note** for this journal - 1400 words preferred.  
-
-```{r, warning=FALSE, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(knitr)
-design<- read_csv("BIOL3250_data_design_labs.csv")
-knitr::kable(design)
-```
-
- 
 
 
