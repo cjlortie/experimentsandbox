@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Labs  
 Every single day is an experiment - manage and be mindful of the process. #sciencejedi  
 
-[Lab manual](http://www.designcraft4experiments.club)  
+[Lab manual](https://bookdown.org/chris/designcraft4experiments/)  
 <br>  
 
 
