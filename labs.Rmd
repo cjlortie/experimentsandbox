@@ -14,6 +14,40 @@ Every single day is an experiment - manage and be mindful of the process. #scien
 [Lab manual](https://bookdown.org/chris/designcraft4experiments/)  
 <br>  
 
+Remember, please use [turnitin.com](https://www.turnitin.com) for the labs too including the data-meta-data submissions as PDF.  
+
+**Data with meta-data submissions**    
+Everything is explained in the lab manual book. Just in case the data with meta-data is not crystal clear, here is what I recommend.
+
+1. Publish data with meta-data to [figshare.com](https://figshare.com) (and copy link).
+2. Make a word or pages to text file.
+3. Then, print or save the word/text file to PDF, submit to turnitin.com    
+
+In the text/word file, do the following.  
+
+Title of data with meta-data experiment:  
+Name:  
+Surname:  
+Student:  
+Link to figshare: paste the link here  
+Meta-data:  
+paste it all here.  
+Data:  
+just paste the table into word doc/text file.  
+
+Conver to single PDF, submit.   
+
+**Field lab report**
+Write in whatever text editor you like, insert the main figure into it, print or save the entire doc as PDF and submit to turnitin.  
+
+**Data-design lab report**  
+Same workflow, write, insert the plot, convert to PDF, submit. :)  
+
+
+
+
+
+
 
 
 
