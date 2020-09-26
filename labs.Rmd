@@ -35,9 +35,9 @@ paste it all here.
 Data:  
 just paste the table into word doc/text file.  
 
-Conver to single PDF, submit.   
+Convert to single PDF, submit.   
 
-**Field lab report**
+**Field lab report**  
 Write in whatever text editor you like, insert the main figure into it, print or save the entire doc as PDF and submit to turnitin.  
 
 **Data-design lab report**  
