@@ -8,7 +8,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
 
-## Grant application    
+## Grant application  
+
 ### Instructions  
 [Canada Graduate Scholarships-Master’s Program](http://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp)  
 
@@ -20,6 +21,9 @@ library(knitr)
 grant <- read_csv("BIOL3250_grant.csv")
 knitr::kable(grant)
 ``` 
+
+### Template   
+A [**sample grant**](https://figshare.com/articles/online_resource/BIOL3250_grant_template/13224755) outlined with the formatting set up correctly for submission and for evaluation.   
 
 ### Resources    
 [Ten simple rules for writing a career development award proposal](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005863)  
