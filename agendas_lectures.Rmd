@@ -1,6 +1,15 @@
-BIOL3250 lecture agendas
+---
+title: ""
+output: html_document
+---
 
-WEEK 3
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>  
+
+### WEEK 3
 10min - print up circles, do shoe test, chat
 
 10 min - FUN experiment
@@ -16,7 +25,9 @@ WEEK 3
 10min - OPTIONAL - plant-animal show and tell
 
 
-WEEK 4
+<br>  
+
+### WEEK 4
 5min wait for people
 
 10min experiment chat
@@ -30,8 +41,9 @@ WEEK 4
 10min lab talk
 
 
+<br>  
 
-WEEK 4
+### WEEK 5
 TODAY IS A DUE DATE :)
 So, I will be efficient. haha.
 
@@ -43,7 +55,9 @@ So, I will be efficient. haha.
 10min CH6 deck
 15mins Q & A with TAS
 
-WEEK 6
+<br>  
+
+### WEEK 6
 5min chill out and look at Biggie
 5min lab chat and reminder
 10min of Gritty experimental fun
@@ -51,7 +65,9 @@ WEEK 6
 10min break
 10min CH10
 
-WEEK 8
+<br>  
+
+### WEEK 8
 5min chat
 
 5min intro to Among Us
@@ -67,7 +83,9 @@ WEEK 8
 10 min break-out rooms to highlight rules usefulness from an ED philosophy
 link: https://forms.gle/hvfhSfZL1Mrt8yEH7
 
-Week 9
+<br>  
+
+### Week 9 & 10
 Among us
 
 BIG picture for lectures
@@ -77,6 +95,41 @@ Ten simple rules x2
 Break
 
 Scicomm
+
+<br>  
+
+### Week 11
+15min We need data: Among Us experiment  
+25min Grant clarification  
+10min break to think  
+15min any breakout Qs addressed  
+
+![](./hanging.jpg)
+
+<br>  
+
+### Week 12
+
+10min big picture wrap up  
+15min tests to learn  
+20% insight, 80% practice for neurological change but we do grading 50-50% in this course  
+
+#### Overview of challenges    
+
+tool         challenge
+------------ ----------
+test         easy
+field report hard
+grant        easy-moderate
+data report  moderate-easy  
+
+
+![](./the_child.jpeg)
+
+
+
+
+
 
 
 
