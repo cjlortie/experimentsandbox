@@ -43,6 +43,8 @@ Write in whatever text editor you like, insert the main figure into it, print or
 **Data-design lab report**  
 Same workflow, write, insert the plot, convert to PDF, submit. :)  
 
+[template for research notes](https://figshare.com/articles/online_resource/research_note_template_docx/13315202)  
+
 
 
 
