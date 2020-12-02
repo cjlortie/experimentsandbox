@@ -121,19 +121,11 @@ mild to moderate - designs that work win the race
 
 ### Week 12
 
-10min big picture wrap up  
-15min tests to learn  
+10min [quick draw](https://quickdraw.withgoogle.com)
+15min debrief deck  
 20% insight, 80% practice for neurological change but we do grading 50-50% in this course  
-
-#### Overview of challenges    
-
-tool         challenge
------------- ----------
-test         easy
-field report hard
-grant        easy-moderate
-data report  moderate-easy  
-
+10min break  
+20min wrap up and support in data-design lab  
 
 ![](./the_child.jpeg)
 
